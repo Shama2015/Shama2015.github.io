@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>09 - Data Products Project</title>
+  <meta charset="utf-8">
+  <meta name="description" content="09 - Data Products Project">
+  <meta name="author" content="S Prasad">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>09 - Data Products Project</h1>
+    <h2>Part II - Reproducible Pitch Presentation</h2>
+    <p>S Prasad<br/>Coursera Project</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Plot mpg against a chosen predictor</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>using ISLR library dataset &#39;Auto&#39;</p>
+
+<h3>Audience:</h3>
+
+<p>my peers at the October 2015 class of 09 - Developing Data Products at John Hopikins &#39;Bloomberg School of Biostatics&#39;</p>
+
+<h3>Goal:</h3>
+
+<p>To demonstrate the ability to create a slides deck using R Package &#39;slidify&#39; and creation of a shiny app.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-2" style="background:;">
+  <article data-timings="">
+    <p>ISLR pacakge has many built in datasets, one of which is the &#39;Auto&#39; dataset.</p>
+
+<p>It is a data frame with 392 observations on the following 9 variables :</p>
+
+<ol>
+<li>mpg miles per gallon</li>
+<li>cylinders Number of cylinders between 4 and 8</li>
+<li>displacement Engine displacement (cu. inches)</li>
+<li>horsepower Engine horsepower</li>
+<li>weight Vehicle weight (lbs.)</li>
+<li>acceleration Time to accelerate from 0 to 60 mph (sec.)</li>
+<li>year Model year (modulo 100)</li>
+<li>origin Origin of car (1. American, 2. European, 3. Japanese)</li>
+<li>name Vehicle name</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-3" style="background:;">
+  <article data-timings="">
+    <p>This simple shiny app allows the user to plot &#39;mpg&#39; against one of these predictors, categorized by the number of cylinders:</p>
+
+<ol>
+<li>displacement</li>
+<li>horsepower</li>
+<li>weight</li>
+<li>acceleration</li>
+<li>pair-wise Plot of mpg against displacement, horsepower, weight, and acceleration.</li>
+</ol>
+
+<p>Being a technology demostrator, this slidify deck and the shiny app has been kept very basic.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Where can you find the app?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>the app is hosted at the RStudio shiny server at <a href="https://sprasad.shinyapps.io/Project002">https://sprasad.shinyapps.io/Project002</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Plot mpg against a chosen predictor'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='NA'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='NA'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Where can you find the app?'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
